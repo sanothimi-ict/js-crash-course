@@ -1,0 +1,16 @@
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li:nth-child(even) {
+  color: lightgreen;
+}
+
+li:nth-child(odd) {
+  color: blueviolet;
+}
